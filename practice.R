@@ -1,5 +1,5 @@
 ### pstat10 midterm 1 practice
-#
+# updating 2024-10-23 on jupyterhub (test.lsit)
 
 #array and apply play
 aaa <- c(2,3,4,6) # create vector
