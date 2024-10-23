@@ -1,0 +1,2 @@
+# kinjiRstudio
+Rstudio practice
