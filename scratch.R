@@ -182,4 +182,36 @@ z <- e[,,1]+e[,,2]
 #correct way
 z <- apply(e,c(1,2),sum)
 
+#vadeaths
+VADeaths
+z <- data.frame(VADeaths)
+#or
+z <- as.data.frame(VADeaths)
+x <- applye(VADeaths,1,sum)
+summary(VADeaths)
+
+###
+data("state")
+x <- as.data.frame(state.x77)
+#income per state less than 4300
+sum(x["Income"]<4300)
+sum(x$Income<4300)
+
+
+########
+x <- c("Hello, Hello World") # notice this is a single string
+x
+gsub("Hello", "Hi", x)
+
+z <- c("Goodbye, goodbye and farewell, goodbye")
+sub("goodbye", "so long", z)
+gsub("goodbye", "so long", z)
+
+which(LETTERS=="Y")
+
+#####
+x <- c(1,2,3,4,5)
+y <- c(5,1,3,2,4)
+cor(x,y)
+
 
