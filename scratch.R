@@ -172,4 +172,14 @@ dimnames(e)[[1]] <- cnames
 dimnames(e)[[2]] <- rnames
 dimnames(e)[[3]] <- c("Age<55","Age>=55")
 
+#total deaths/survivors
+apply(e,2,sum)
+#total treatments
+apply(e,1,sum)
+
+#combined
+z <- e[,,1]+e[,,2]
+#correct way
+z <- apply(e,c(1,2),sum)
+
 
